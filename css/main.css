@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@200;300;400;500;600;700;900&display=swap");
+*,
+*::after *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+input,
+button,
+select,
+option,
+textarea {
+  list-style: none;
+  text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Livvic", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 0 10px;
+}/*# sourceMappingURL=main.css.map */
