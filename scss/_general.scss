@@ -1,8 +1,6 @@
 *,
 *::after *::before {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 li,
@@ -21,13 +19,14 @@ textarea {
 }
 
 body{
-  font-family: 'Livvic', sans-serif;
-
+  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Space Mono', monospace;
+  margin: 0;
+  padding: 0;
 }
 
 .container{
-  width: 100%;
-  max-width: 1130px;
+  max-width: 1170px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 30px;
 }

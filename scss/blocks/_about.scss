@@ -1,0 +1,140 @@
+.about {
+  overflow-x: hidden;
+}
+.about__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.about__item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  margin-bottom: 160px;
+}
+.about__img {
+  margin-right: 0;
+}
+.about__img::after {
+  content: url("/img/Group32.svg");
+  display: block;
+  position: absolute;
+  top: 300px;
+  right: -170px;
+}
+.item_about {
+  max-width: 445px;
+  // margin-right: 220px;
+}
+.about__heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #495567;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.about_desc {
+  font-family: Lexend Deca;
+  font-style: Regular;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+  margin: 0;
+  margin-bottom: 40px;
+}
+.oval {
+  position: absolute;
+  right: -43%;
+}
+.center_oval {
+  position: absolute;
+  left: -43%;
+}
+.about_center {
+  flex-flow: row-reverse;
+}
+.center_img::after {
+  content: url("/img/hero.svg");
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: -22%;
+}
+.group__img::after {
+  content: url("/img/Group32.svg");
+  display: block;
+  position: absolute;
+  top: 80px;
+  right: -540px;
+}
+.group {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    width: 100%;
+  }
+  .about__item {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .item_about {
+    margin: auto;
+    max-width: 573px;
+    text-align: center;
+  }
+  .about__img::after {
+    right: -1px;
+  }
+  .center_img::after {
+    top: 10px;
+    left: -20%;
+  }
+  .group__img::after {
+    top: 11%;
+    right: -58%;
+  }
+  .oval {
+    right: -55%;
+  }
+
+  .center_oval {
+    left: -55%;
+  }
+  .about__img {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .oval {
+    display: none;
+  }
+  .group {
+    width: 311px;
+    height: 311px;
+  }
+  .about__heading {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .about__img::after {
+    right: -141%;
+    top: 23%;
+  }
+  .center_img::after {
+    top: 50px;
+    left: -74%;
+  }
+  .group__img::after {
+    top: 0%;
+    right: -178%;
+  }
+}
