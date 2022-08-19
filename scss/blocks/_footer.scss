@@ -26,6 +26,10 @@ footer {
   line-height: 25px;
   color: #939caa;
 }
+
+.footer__desc:hover{
+color: #FFF4DF;
+}
 @media screen and (max-width:368px) {
   .footer__container{
     flex-direction: column;
